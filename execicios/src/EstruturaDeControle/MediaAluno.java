@@ -33,7 +33,7 @@ public class MediaAluno {
         else
             System.out.println("Reprovado!");
 
-
+/// passei aqui
         entrada.close();
     }
 }
