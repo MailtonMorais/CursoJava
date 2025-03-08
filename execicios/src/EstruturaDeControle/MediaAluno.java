@@ -22,17 +22,15 @@ public class MediaAluno {
 
         System.out.println("A Média do aluno é: " + ((int) media));
 
-        boolean aprovado = media >= 6 && media <= 10;
-        boolean recuperacao = media <= 5 && media >= 3;
-        boolean reprovado = media <= 2;
 
-        if (aprovado)
+        if (media >= 6 && media <= 10)
                 System.out.print("Aprovado!");
 
-        if (recuperacao)
-        System.out.print("Recuperação!");
+        else if (media <= 5 && media >= 3)
 
-        if (reprovado)
+            System.out.print("Recuperação!");
+
+        else
             System.out.println("Reprovado!");
 
 
