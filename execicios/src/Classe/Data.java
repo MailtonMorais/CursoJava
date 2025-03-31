@@ -7,17 +7,19 @@ public class Data {
     int Ano;
 
     Data() {
-         Dia = 1;
-         Mes = 1;
-         Ano = 1970;
+        // Dia = 1;
+        // Mes = 1;
+        // Ano = 1970;
+
+         this(1, 1, 1970);
 
 
     }
 
-    Data(int diaInicial, int mesInicial, int anoInicial) {
-        Dia = diaInicial;
-        Mes = mesInicial;
-        Ano = anoInicial;
+    Data(int dia, int mes, int ano) {
+        this.Dia = dia;
+        this.Mes = mes;
+        this.Ano = ano;
 
 
     }

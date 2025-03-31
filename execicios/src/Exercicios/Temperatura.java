@@ -1,3 +1,5 @@
+package Exercicios;
+
 import java.util.Scanner;
 
 public class Temperatura
@@ -7,7 +9,7 @@ public class Temperatura
         //Entrada do número em Fahrenheit
         Scanner entrada = new Scanner(System.in);
         System.out.println("Digite o Grau em Fahrenheit:");
-        String GrausEmFahrenheit = (entrada.next());
+        String GrausEmFahrenheit = entrada.next();
 
 
         // Formula para conversão = (F - 32) * 5/9 = C
