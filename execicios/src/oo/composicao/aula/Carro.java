@@ -1,4 +1,4 @@
-package oo.composicao;
+package oo.composicao.aula;
 
 public class Carro {
 
